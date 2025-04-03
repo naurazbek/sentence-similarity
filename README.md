@@ -34,7 +34,7 @@ bash
 
 
 pip install -r requirements.txt
-Download the Quora Question Pairs dataset from Kaggle and place it in the project directory. Rename the file to quora_question_pairs.csv.
+Download the Quora Question Pairs dataset from Kaggle and place it in the project directory. Rename the file to questions.csv.
 
 Run the script:
 
