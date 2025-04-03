@@ -28,3 +28,30 @@ The dataset should be in CSV format with the following columns:
    ```bash
    git clone https://github.com/naurazbek/sentence-similarity.git
    cd sentence-similarity
+Install the required Python packages:
+
+bash
+
+
+pip install -r requirements.txt
+Download the Quora Question Pairs dataset from Kaggle and place it in the project directory. Rename the file to quora_question_pairs.csv.
+
+Run the script:
+
+bash
+
+
+python main.py
+Docker Setup
+Build the Docker image:
+
+bash
+
+
+docker build -t sentence-transformers-app .
+Run the Docker container:
+
+bash
+
+
+docker run -it --rm sentence-transformers-app
